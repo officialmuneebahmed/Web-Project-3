@@ -1,0 +1,497 @@
+/* ........................... RESPONSIVE .................... */
+@media (min-width: 320px) and (max-width: 419.5px){
+
+    /* ,,,,,,,,,,,,,,,,,,,,,,, RIGHT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    
+        #div-control{
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            float: left;
+            /* border: 1px solid #000; */
+            width: 90%;
+            justify-content: center;
+            height: auto;
+            margin: 1em 1em 1em 1em;
+        }
+    /* ........................... LEFT SIDE CONTROL .................... */
+    
+    #left-half{
+        /* background-color: rgb(94, 50, 149); */
+        background-color: #5e3295;
+        width: 100%;
+        height: 60vh;
+        
+    }
+    
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 26pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 1em;
+        margin-left: 1em;
+        width: 80%;
+        text-align: center;
+        /* border: 1px solid #fff; */
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1.5em;
+        margin-left: 3em;
+        width: 80%;
+        text-align: center;
+    }
+    
+    }
+
+@media (min-width: 420px) and (max-width: 499.5px){
+
+    /* ,,,,,,,,,,,,,,,,,,,,,,, RIGHT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    
+        #div-control{
+   
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            float: left;
+            /* border: 1px solid #000; */
+            width: 15em;
+            height: auto;
+            margin: 1em 1em 1em 7em;
+        }
+    /* ........................... LEFT SIDE CONTROL .................... */
+    
+    #left-half{
+        /* background-color: rgb(94, 50, 149); */
+        background-color: #5e3295;
+        width: 100%;
+        height: 30vh;
+        
+    }
+    
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 80%;
+        text-align: center;
+        /* border: 1px solid #fff; */
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 8pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1.5em;
+        margin-left: 3em;
+        width: 80%;
+        text-align: center;
+    }
+    
+    }
+
+@media (min-width: 500px) and (max-width: 544px){
+
+    /* ,,,,,,,,,,,,,,,,,,,,,,, RIGHT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    
+        #div-control{
+       
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            float: left;
+            /* border: 1px solid #000; */
+            width: 15em;
+            height: auto;
+            margin: 1em 1em 1em 8em;
+        }
+    /* ........................... LEFT SIDE CONTROL .................... */
+    
+    #left-half{
+        /* background-color: rgb(94, 50, 149); */
+        background-color: #5e3295;
+        width: 100%;
+        height: 50vh;
+        
+    }
+    
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 26pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        margin-top: 1em;
+        margin-left: 1.5em;
+        width: 80%;
+        text-align: center;
+        /* border: 1px solid #fff; */
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 1.5em;
+        margin-left: 3em;
+        width: 80%;
+        text-align: center;
+    }
+    
+    }
+
+@media (min-width: 545px) and (max-width: 559px){
+
+/* ,,,,,,,,,,,,,,,,,,,,,,, RIGHT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+    #div-control{
+   
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        float: right;
+        /* border: 1px solid #000; */
+        width: 15em;
+        height: auto;
+        position: relative;
+        margin: -34em 1em 0em 0em;
+    }
+/* ........................... LEFT SIDE CONTROL .................... */
+
+
+#left-half h1{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26pt;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-left: 0.8em;
+    width: 7em;
+}
+#left-half h3{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10pt;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    width: 18em;
+
+}
+
+}
+
+
+@media (min-width: 560px) and (max-width: 624px){
+
+    /* ,,,,,,,,,,,,,,,,,,,,,,, RIGHT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+#div-control{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    /* border: 1px solid #000; */
+    width: 15em;
+    height: auto;
+    position: relative;
+    margin: -34em 2em 0em 0em;
+}
+#left-half h1{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26pt;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-left: 0.2em;
+    width: 7em;
+}
+#left-half h3{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8pt;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 20em;
+
+}
+
+}
+
+
+@media (min-width: 625px) and (max-width: 679px){
+    #div-control{
+      
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+       position: relative;
+       margin: -34em 1.5em 0em 0em;
+    }
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        margin-left: 0.2em;
+        width: 7em;
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+        margin-left: 2em;
+        width: 20em;
+    
+    }
+} 
+
+@media (min-width: 680px) and (max-width: 729px){
+    #div-control{
+     
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+       position: relative;
+       margin: -34em 2em 0em 0em;
+    }
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        margin-left: 0.5em;
+        width: 7em;
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+        margin-left: 2.2em;
+        width: 20em;
+    
+    }
+}
+
+@media (min-width: 730px) and (max-width: 768px){
+    #div-control{
+     
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+       position: relative;
+       margin: -34em 3em 0em 0em;
+    }
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        margin-left: 1em;
+        width: 7em;
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+        margin-left: 3.8em;
+        width: 20em;
+    
+    }
+} 
+
+@media (min-width: 769px) and (max-width: 844px){
+    #div-control{
+        position: relative;
+        margin: -34em 4em 0em 0em;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+       
+    }
+    #left-half h1{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3em;
+        margin-left: 1em;
+        width: 7em;
+    }
+    #left-half h3{
+        font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10pt;
+        color: #fff;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+        margin-left: 3.8em;
+        width: 20em;
+    
+    }
+} 
+
+@media (min-width: 845px) and (max-width: 991px){
+    #div-control{
+        position: relative;
+        margin: -34em 6em 0em 0em;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+     
+    }
+} 
+
+@media (min-width: 992px) and (max-width: 1024px){
+    #div-control{
+        position: relative;
+        margin: -34em 7em 0em 0em;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+      
+    }
+} 
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    #div-control{
+        position: relative;
+        margin: -34em 8em 0em 5em;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       float: right;
+       /* border: 1px solid #000; */
+       width: 18em;
+       height: auto;
+      
+    }
+} 
+ 
+
+@media (min-width: 1201px) and (max-width: 1400px){
+    #div-control{
+        position: relative;
+        margin: -34em 10em 0em 5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        float: right;
+        /* border: 1px solid #000; */
+        width: 18em;
+        height: auto;
+        
+     }
+ } 
+
+ 

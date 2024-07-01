@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,, LEFT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+#left-half{
+    /* background-color: rgb(94, 50, 149); */
+    background-color: #5e3295;
+    width: 50%;
+    height: 100vh;
+    
+}
+#left-half h1{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36pt;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-left: 2em;
+    width: 7em;
+}
+#left-half h3{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10pt;
+    color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    margin-left: 7em;
+    width: 26em;
+
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,, ANIMATIONS ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.animate__animated.animate__slideInLeft {
+    --animate-duration: 2s;
+}
+.animate__animated.animate__slideInDown{
+    --animate-duration: 2s;
+}
+.animate__animated.animate__zoomInRight{
+    --animate-duration: 2s;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,, RIGHT SIDE CONTROL ,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+#div-control{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    /* border: 1px solid #000; */
+    width: 18em;
+    height: auto;
+    margin: 2em 10em 0em 0em;
+}
+.div-1-control{
+    line-height: 1.33337;
+    text-align: left;
+}
+.div-1-control h3{
+    font-size: 24pt;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.div-1-control h5{
+    font-size: 12pt;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+
+/* ........................... DIV 2 CONTROL .................... */
+.div-2-control{
+    padding: 1em 0em 0em 0em; 
+   
+
+}
+
+/* ........................... DIV 2 CONTROL - TEXT .................... */
+.div-2-control .text{
+    margin: 0em 0em 1em 0em;
+    padding: 0.7em 0.6em;
+    width: 100%;
+    background-color: #e2e2e2e2;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    border: none;
+    border-radius: 0.5em;
+}
+.div-2-control .text::placeholder{
+    font-size: 10pt;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ........................... DIV 2 CONTROL - PASSWORD.................... */
+
+.div-2-control .password{
+    margin: 0em 0em 1em 0em;
+    padding: 0.7em 0.6em;
+    width: 100%;
+    background-color: #e2e2e2e2;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    border: none;
+    border-radius: 0.5em;
+}
+.div-2-control .password::placeholder{
+    font-size: 10pt;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* ........................... DIV 2 CONTROL - CHECKBOX.................... */
+
+.checkbox{
+    width: 0.7em;
+    height: auto;
+    margin: 0.5em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
+}
+
+/* ........................... DIV 2 CONTROL - CHECKBOX - TEXT.................... */
+
+
+#checkbox{
+    margin: -1.7em 0em 0em 2em;
+    padding: 0em 0em 0em 0em;
+    font-size: 7pt;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.3;
+}
+#checkbox a{
+    text-decoration: underline;
+}
+#checkbox a:hover{
+    color: #5e3295;
+}
+
+
+/* ........................... DIV 2 CONTROL - BUTTON .................... */
+
+.div-2-control .btn-1{
+    margin: 0em 0em 0em 0em;
+    padding: 0.7em 0.6em;
+    width: 100%;
+    background-color: rgb(166, 44, 148);
+    color: #fff;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 0.5em;
+}
+.div-2-control .btn-1:hover{
+    cursor: pointer;
+    border: 1px solid #000;
+}
+/* ........................... OR .................... */
+#or{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8pt;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+
+/* ........................... DIV 3 CONTROL .................... */
+.div-3-control button{
+    margin: 0em 0em 1em 0em;
+    padding: 0.7em 0em;
+    width: 100%;
+    background-color: #e2e2e2e2;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 8pt;
+    border: none;
+    border-radius: 0.5em;
+    text-align: left;
+
+}
+.div-3-control button:hover{
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: 1s ease-in;
+}
+.div-3-control button a{
+    color: #000;
+    margin-left: 1%;
+}
+
+.logos--apple {
+    margin-left: 18%;
+    padding: 0em 2em;
+    display: inline-block;
+    width: 0.82em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 315'%3E%3Cpath d='M213.803 167.03c.442 47.58 41.74 63.413 42.197 63.615c-.35 1.116-6.599 22.563-21.757 44.716c-13.104 19.153-26.705 38.235-48.13 38.63c-21.05.388-27.82-12.483-51.888-12.483c-24.061 0-31.582 12.088-51.51 12.871c-20.68.783-36.428-20.71-49.64-39.793c-27-39.033-47.633-110.3-19.928-158.406c13.763-23.89 38.36-39.017 65.056-39.405c20.307-.387 39.475 13.662 51.889 13.662c12.406 0 35.699-16.895 60.186-14.414c10.25.427 39.026 4.14 57.503 31.186c-1.49.923-34.335 20.044-33.978 59.822M174.24 50.199c10.98-13.29 18.369-31.79 16.353-50.199c-15.826.636-34.962 10.546-46.314 23.828c-10.173 11.763-19.082 30.589-16.678 48.633c17.64 1.365 35.66-8.964 46.64-22.262'/%3E%3C/svg%3E");
+  }
+.logos--google-icon {
+    margin-left: 18%;
+    padding: 0em 2em;
+    display: inline-block;
+    width: 0.98em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 262'%3E%3Cpath fill='%234285f4' d='M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622l38.755 30.023l2.685.268c24.659-22.774 38.875-56.282 38.875-96.027'/%3E%3Cpath fill='%2334a853' d='M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055c-34.523 0-63.824-22.773-74.269-54.25l-1.531.13l-40.298 31.187l-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1'/%3E%3Cpath fill='%23fbbc05' d='M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82c0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602z'/%3E%3Cpath fill='%23eb4335' d='M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0C79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251'/%3E%3C/svg%3E");
+  }
+  .logos--facebook {
+    margin-left: 18%;
+    padding: 0em 2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%231877f2' d='M256 128C256 57.308 198.692 0 128 0S0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445'/%3E%3Cpath fill='%23fff' d='m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A129 129 0 0 0 128 256a129 129 0 0 0 20-1.555V165z'/%3E%3C/svg%3E");
+  }
+/* ........................... LOGIN .................... */
+#login{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    padding: 1em 0em;
+    border-bottom: 1px solid #000;
+    
+}
+#login a:hover{
+    text-decoration: underline;
+}
+
+/* ........................... COUNTRY .................... */
+#country{
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    padding: 1em 0em;
+    
+}
+#country select{
+    background-color: #fff;
+    font-family: Poppins, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    width: 10em;
+}
+#country select:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+
